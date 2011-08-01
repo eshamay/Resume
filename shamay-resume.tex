@@ -1,0 +1,161 @@
+\documentclass[margin,line]{res}
+\usepackage{textcomp}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{xcolor}
+\usepackage[pdftex,colorlinks=true,urlcolor=blue]{hyperref}
+
+
+\begin{document}
+
+\name{Eric Shachar Shamay \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3.5in}p{3.5in}}
+University of Oregon             		& {\it mobile:}  +1 (503) 664-4709\\
+Department of Chemistry, WIL212         & \\
+Eugene, OR 97403                    	& {\it e-mail:}  eshamay@uoregon.edu
+\end{tabular}
+
+%\section{\sc Research Interests}
+%Laser interferometry, general relativity, functional programming, nonlinear interactions, mathematical modeling.
+
+%\section{\sc Current Pos.}
+%{\bf University of Oregon}, graduate student (doctoral candidate)
+
+\section{\sc Education}
+{\bf University of Oregon}\\
+%{\em Department of Chemistry}
+\vspace*{-.1in}
+\begin{list1}
+\item[] {\sc PhD}, Computational Physical Chemistry, in progress (expected March 2012) 
+\begin{list2}
+\item[] Dissertation Topic:  ``Computational modeling and simulation of gaseous adsorption processes on aqueous interfaces''
+\item[] Advisor: Prof. Geraldine L. Richmond
+\end{list2}
+\end{list1}
+
+{\bf California Polytechnic State University, San Luis Obispo}\\
+%{\em Department of Physics and Astronomy} 
+\vspace*{-.1in}
+\begin{list1}
+\item[] {\sc BS}, Chemistry, June 2004
+\item[] {\sc BS}, General Engineering, June 2004
+\end{list1}
+
+
+\section{\sc Core Skills} 
+
+Computational molecular simulation techniques (ab initio DFT, classical).
+
+Programming: C++, STL, Boost, C, Python, Haskell, MPI, Template meta-programming, Functional programming, Object-oriented programming, Distributed computing.
+
+UNIX cluster system administration.
+
+Native hebrew language speaker.
+
+\section{\sc Experience}
+
+\emph{University of Oregon} \hfill { \textcolor{gray}{August 2005 - present} }\\
+Graduate research assistant (doctoral candidate).  Conducted computational modeling and simulation studies to characterize water's behavior at interfaces between aqueous systems and other phases. Utilized both classical and quantum molecular dynamics techniques, and created a suite of software tools (C++, python) for analysis of molecular properties and computational nonlinear vibrational spectra of water and small inorganic ions and acid species in interfacial environments. Conducted studies on the interactions, topologies, and geometries of liquid-liquid and liquid-gas interfaces, and produced visualization tools for the analyses.
+
+\emph{University of Victoria, B.C.} \hfill {\textcolor{gray}{January 2008 - April 2008}}\\
+Visitor in computational chemistry and scientific computing.  Modeled aqueous chemical systems of small inorganic salts using classical molecular dynamics simulations. Analyzed the geometries and vibrational spectra of interfacial aqueous environments between salt solutions and an organic carbon tetrachloride phase. The research resulted in publication in the \textit{Jour. of Phys. Chem. C.}
+
+\emph{Parrinello Research Group, USI-Campus, Lugano, Switzerland}  \hfill { \textcolor{gray}{November 2006 - February 2007}} \\
+Visiting researcher and computational chemist. Worked directly with Dr. Victoria Buch. Simulated aqueous nitric acid interfaces with air/vacuum using quantum molecular dynamics (CP2K/Quickstep). Wrote analytical software (in C++, Fortran) to determine hydration states, the adsorption mechanism, and lifetime of nitric acid near a water surface. Results of the research were published in the \textit{Jour. of Amer. Chem. Soc.}
+
+%% \emph{Institute for Geophysics and Planetary Physics (UC San Diego)} \hfill {\textcolor{gray}{Summer 2004}} \\
+%% Programmer/Analyst III. Developed software (in Java) to allow the use of realtime geophysical
+%% data in the Kepler scientific workflow system.
+
+\emph{Channel Islands Opto-Mechanical Engineering, Inc.} \hfill {\textcolor{gray}{December 2004 - July 2004}} \\
+Engineer and Quality Assurance Manager. Produced a high vacuum coating deposition chamber for gaussian infrared optical filters using electron beam physical vapor deposition techniques. Designed and built an infrared spectrophotometer for coating analysis, and implemented a system for data acquisition (in Labview and C), and designed multiple mechanical subsystems for quality analysis tools (using SolidWorks, ProE). Performed quality control tasks on mechanical systems and optics. Began ISO 9000 certification with creation of a quality control system, manuals, procedures, and forms. 
+
+\emph{National Institute of Standards and Technology} \hfill {\textcolor{gray}{Summer 2004}} \\
+Undergraduate Research Fellow. Developed a database and web-based front-end for real-fuels combustion models researched at NIST. Produced technologies for polyaromatic hydrocarbon species nomenclature, and substituted hydrocarbon species relational identification (in Perl, Apache, Java, and MySQL). Available online at: 
+http://kinetics.nist.gov/CKMech
+
+%\emph{Dept. of Chemistry, Calpoly, SLO} \hfill {\textcolor{gray}{2003}} \\
+%Conducted experiments on polyelectrolyte multilayer systems coated on silica substrates. Implemented atomic force microscopy and quartz crystal microgravimetry measurements for surface and polymer deposition characterization. Results were presented at the regional American Chemical Society meeting.
+
+\emph{Invensys-Triconex, Irvine, CA} \hfill {\textcolor{gray}{June 2001 - December 2001}} \\
+Engineer and technical editor. Researched, edited, and produced design requirements for automated fault-insertion system software, and compiled an operations manual. Maintained and updated fault-insertion robotics components. Documented EPROM programming systems to facilitate use of a variety of memory modules. 
+
+%\emph{IEEE Micromouse Robotics Competition, Calpoly, SLO} \hfill {\textcolor{gray}{2001}} \\
+%Designed and built a small autonomous maze-solving robot, including a hand-built microprocessor platform (68HC11), custom circuit boards, IR sensors, and stepper motors, and embedded software written in C and assembly language.
+
+\emph{Sierra Instruments} \hfill {\textcolor{gray}{Summer 2000}} \\
+Engineering intern. Implemented a Labview front-end for clean-gas data acquisition and mass-flow meter calibration loops. Documented mass-flow calibration procedures and conducted software training. Fulfilled engineering action requests for updating CAD drawings for design changes.
+
+
+\section{\sc Coursework}
+
+\textbf{Chemistry}: Graduate coursework in thermodynamics (Fermi), kinetics, quantum mechanics (Shankar), statistical mechanics (Chandler), molecular spectroscopy (McHale). Undergraduate coursework in quantum mechanics, instrumental analysis, quantitative analysis, organic chemistry (McMurry); 
+
+\textbf{Engineering/Computer Science}: Undergraduate coursework in mechanical control systems (Nise), mechanical vibrations (Steidel), acoustics, thermodynamics, engineering dynamics, fluid mechanics (McDonald), computer organization (P\&H), heat transfer (Dewitt), data structures \& algorithms (Cormen \& L,R,S). 
+
+\section{\sc Selected Publications}
+
+
+\textbf{Shamay, E.} and S.T. Ota, G.L. Richmond. ``Gaseous adsorption on water surfaces: Molecular insights gained from a combined computational and experimental approach.'' \emph{241st ACS national meeting}, Anaheim (March 2011).
+
+\textbf{Shamay, E.} and G.L. Richmond. ``Ionic disruption of the liquid-liquid interface.'' \emph{Jour. of Phys. Chem. C} \textbf{114} (29), 12590-12597 (Jul 29 2010).
+
+\textbf{Shamay, E.} and G.L. Richmond. ``Interfacial aqueous solution structure near surfaces of organic fluids and hydrophobic monolayers.'' \emph{239th ACS national meeting}, San Francisco (March 2010).
+
+Kido Soule, M. and P.G. Blower, \textbf{E. Shamay}, G.L. Richmond. ``How nitric acid changed my life: At the edge of computational simulation and nonlinear vibrational spectroscopy.'' \emph{Materials Science Institute, Univ. of Oregon}, IGERT retreat (Dec 2007)
+
+\textbf{Shamay E.} and V. Buch, M Parrinello, G.L. Richmond. ``At the water's edge: Nitric acid as a weak acid.'' \emph{Jour. of the American Chem. Soc.} \textbf{129} (43), 12910-12911 (Oct 31 2007).
+
+\textbf{Shamay, E.} and R. Grant, D.E. Gragson. ``Polyelectrolyte multilayer film morphology and water adsorption explored by atomic force microscopy and quartz crystal microgravimetry.'' \emph{227th ACS national meeting}, Anaheim (March 2004).
+
+
+%\section{\sc Small projects}
+%\textit{Relevant small projects}
+%
+%ICFP Programming Contest - 2006, 2007, 2009
+%
+%Monte Carlo investigation of the Ising Model - December 2006 \\
+%\href{http://web.pas.rochester.edu/~tobin/notebook/2006/12/27/ising-paper.pdf}{\texttt{http://web.pas.rochester.edu/$\sim$tobin/notebook/2006/12/27/ising-paper.pdf}}
+%
+%Hoshen-kopelman algorithm for cluster identification -  April 2004 \\
+%\href{http://www.ocf.berkeley.edu/~fricke/projects/hoshenkopelman/hoshenkopelman.html}{\texttt{http://www.ocf.berkeley.edu/$\sim$fricke/projects/hoshenkopelman/hoshenkopelman.html}}
+%
+%Wavelets for image compression - October 2000 \\
+%\href{http://www.ocf.berkeley.edu/~fricke/projects/wavelet/paper.pdf}{\texttt{http://www.ocf.berkeley.edu/~fricke/projects/wavelet/paper.pdf}}
+
+%\section{\sc Honors and Awards} 
+%Univ. of Oregon GK-12 Teaching and Outreach Fellowship (2008,2009,2010)
+
+%IGERT International Travel Fellowship (2006)
+
+%Calpoly, SLO, Dept. of Chemistry Physical Chemistry Student  of the year Award (2004)
+
+%Calpoly, SLO, Dept. of Chemistry Student of the Year Award (2004)
+
+\end{resume}
+
+\end{document}
+
+
